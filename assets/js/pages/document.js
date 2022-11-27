@@ -1,0 +1,1 @@
+globalThis.pragma.Interactions("document", {});

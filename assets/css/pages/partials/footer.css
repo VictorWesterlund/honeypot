@@ -1,0 +1,25 @@
+footer {
+    margin-top: var(--padding);
+}
+
+footer #footer_list {
+    --color: #888;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: var(--color);
+}
+
+footer #footer_list > div {
+    display: flex;
+    flex-direction: column;
+    padding-left: var(--padding);
+    color: var(--color);
+}
+
+footer #footer_list > div p {
+    font-weight: bold;
+}
+
+footer #footer_list > div:not(:first-child) {
+    border-left: solid 1px var(--color);
+}

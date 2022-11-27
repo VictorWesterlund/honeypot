@@ -1,0 +1,48 @@
+.content#login {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+
+.content#login aside {
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+    padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding);
+    border-radius: 6px;
+}
+
+.content#login aside h2 {
+    color: var(--color-accent);
+    font-size: 17px;
+}
+
+.content#login form {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding);
+}
+
+.content#login .error {
+    background-color: #ff000010;
+    color: red;
+    padding: 10px;
+}
+
+.content#login input[type="submit"] {
+    width: 100px;
+    padding: 7px;
+    background: linear-gradient(0deg, rgba(0,134,167,1) 0%, rgba(0,176,208,1) 100%);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media (hover: hover) {
+    .content#login input[type="submit"]:hover {
+        background: rgba(0,134,167,1);
+    }
+}
