@@ -1,6 +1,6 @@
 <?php
 
-    require_once Path::root("database/SQLite/SQLite.php");
+    require_once Path::root("database/9f50ea1a5be726e610dc2fe134926869/SQLite.php");
 
     class PotDB extends SQLiteDriver {
         public function __construct() {
