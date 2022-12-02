@@ -15,10 +15,10 @@ Can the IP, HTTP Headers and more from anyone trying to log in to this site. Eve
    
 2. **Clone this repo**
 
-   Clone this repo anywhere Pragma can read its contents.
+   Clone this repo (with submodules) anywhere Pragma can read its contents.
    
    ```
-   $ git clone http://github.com/VictorWesterlund/honeypot
+   $ git clone http://github.com/VictorWesterlund/honeypot --recurse-submodules
    ```
    
 3. **Set env var**
